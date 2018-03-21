@@ -9,14 +9,21 @@ img{
 }
 .brand {
     color: #252C37;
-    text-shadow: 1px -1px 0 #74D1EA, -1px -1px 0 #74D1EA, -1px 1px 0 #74D1EA, 1px 1px 0 #74D1EA; }
+    text-shadow: 1px -1px 0 #74D1EA, -1px -1px 0 #74D1EA, -1px 1px 0 #74D1EA, 1px 1px 0 #74D1EA; 
+
+}
   
   .brand:before {
     color: #252C37;
-    text-shadow: 1px -1px 0 #FF585D, -1px -1px 0 #FF585D, -1px 1px 0 #FF585D, 1px 1px 0 #FF585D;
-    content: 'DeHUB KENYA HACK'; }
+    text-shadow: 1px -1px 0 green, -1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
+    content: 'DeHUB KENYA '; }
   
   .brand:after {
     color: #252C37;
     text-shadow: 1px -1px 0 #D0D6E0, -1px -1px 0 #D0D6E0, -1px 1px 0 #D0D6E0, 1px 1px 0 #D0D6E0;
     content: ' 2018'; }
+.writing{
+    float: left;
+    margin-top: 220px;
+    margin-left: 280px; 
+}
