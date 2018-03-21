@@ -25,12 +25,17 @@ img{
 .writing{
     float: left;
     margin-top: 220px;
-    margin-left: 280px;
+    margin-left: 100px;
      
 }
-p{
+h3{
     font-family: 'Poppins', sans-serif;
     letter-spacing: .128em;
   font-weight: 400;
   font-size: 16px;
+}
+body{
+    text-align: end;
+    line-height: 18px;
+    font-family: 'Courier New', Courier, monospace;    
 }
