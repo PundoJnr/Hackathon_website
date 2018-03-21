@@ -7,11 +7,16 @@ img{
     margin-left: -185px; /*half the image width*/
     margin-top: -165px; /*half the image height*/
 }
-p{
-    font-family: monospace;
-    color: azure;
-    left: 50%;
-    right: 50%;
-    margin-left: 650px;
-
-}
+.brand {
+    color: #252C37;
+    text-shadow: 1px -1px 0 #74D1EA, -1px -1px 0 #74D1EA, -1px 1px 0 #74D1EA, 1px 1px 0 #74D1EA; }
+  
+  .brand:before {
+    color: #252C37;
+    text-shadow: 1px -1px 0 #FF585D, -1px -1px 0 #FF585D, -1px 1px 0 #FF585D, 1px 1px 0 #FF585D;
+    content: 'DeHUB KENYA HACK'; }
+  
+  .brand:after {
+    color: #252C37;
+    text-shadow: 1px -1px 0 #D0D6E0, -1px -1px 0 #D0D6E0, -1px 1px 0 #D0D6E0, 1px 1px 0 #D0D6E0;
+    content: ' 2018'; }
