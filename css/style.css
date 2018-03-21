@@ -42,9 +42,50 @@ body{
     text-align: right;   
 }
 .mid{
-width: 100%;
+width: 99%;
 position: absolute;
 height: 32px;
 border-bottom: 0.5px solid #BEE7F0;
 bottom: 24px; 
 }
+.midu{
+    width: 99%;
+    position: absolute;
+    height:32px;
+    border-top: 0.5px solid #BEE7F0;
+    top: 24px;
+}
+.copyright {
+    color: rgba(208, 214, 224, 0.6);
+    text-align: right;
+    font-size: 9px;
+    line-height: 1.1em;
+    position: relative;
+    margin-top: 24px;
+    margin-right: 10px;
+    z-index: 100;
+}
+header, footer {
+    position: absolute;
+    width: 100%;
+    height: 56px; }
+    header .mid, header .left, header .right, footer .mid, footer .left, footer .right {
+      position: absolute;
+      height: 32px; }
+    header .left, header .right, footer .left, footer .right {
+      width: 212.6153846154px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: #252C37; }
+      header .left:after, header .right:after, footer .left:after, footer .right:after {
+        display: block;
+        position: absolute;
+        color: rgba(208, 214, 224, 0.6); }
+    header .mid, footer .mid {
+      width: 100%; }
+    header .left, footer .left {
+      left: 0;
+      z-index: 100; }
+    header .right, footer .right {
+      right: 0;
+      z-index: 99; }
