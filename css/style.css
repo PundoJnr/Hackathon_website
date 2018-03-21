@@ -25,5 +25,12 @@ img{
 .writing{
     float: left;
     margin-top: 220px;
-    margin-left: 280px; 
+    margin-left: 280px;
+     
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .128em;
+  font-weight: 400;
+  font-size: 16px;
 }
