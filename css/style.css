@@ -1,7 +1,7 @@
 img{
     position: absolute;
-    width: 400px; /*the image width*/
-    height: 400px; /*the image height*/
+    width: 300px; /*the image width*/
+    height: 300px; /*the image height*/
     left: 50%;
     top: 50%;
     margin-left: -185px; /*half the image width*/
@@ -35,7 +35,16 @@ h3{
   font-size: 16px;
 }
 body{
-    text-align: end;
-    line-height: 18px;
-    font-family: 'Courier New', Courier, monospace;    
+    font-family: 'Karla', sans-serif;
+    color: #D0D6E0;
+    font-size: 13px;
+    letter-spacing: .025em;
+    text-align: right;   
+}
+.mid{
+width: 100%;
+position: absolute;
+height: 32px;
+border-bottom: 0.5px solid #BEE7F0;
+bottom: 24px; 
 }
