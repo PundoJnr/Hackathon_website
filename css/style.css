@@ -1,0 +1,17 @@
+img{
+    position: absolute;
+    width: 400px; /*the image width*/
+    height: 400px; /*the image height*/
+    left: 50%;
+    top: 50%;
+    margin-left: -185px; /*half the image width*/
+    margin-top: -165px; /*half the image height*/
+}
+p{
+    font-family: monospace;
+    color: azure;
+    left: 50%;
+    right: 50%;
+    margin-left: 650px;
+
+}
