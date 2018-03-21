@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/semantic-ui@2.2.1(components/reset.min.css+components/grid.min.css+semantic.min.css)">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+
+    <title>DeHUB Kenya Hack</title>
+
+    <!-- for Facebook 
+    <meta property="og:title" content="HackMIT 2017"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://hackmit.org/assets/images/hack-fb-logo.png"/>
+    <meta property="og:image:width" content="470"/>
+    <meta property="og:image:height" content="250"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta property="og:url" content="https://hackmit.org"/>
+    <meta property="og:description" content="Hack, build, and innovate at MIT's largest hackathon. Sept 16 - 17."/>
+
+    <!- for Twitter 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@hackmit">
+    <meta name="twitter:title" content="HackMIT 2017">
+    <meta name="twitter:description" content="Hack, build, and innovate at MIT's largest hackathon. Sept 16 - 17.">
+    <meta name="twitter:image" content="https://hackmit.org/assets/images/hack-twitter-logo.png"/>
+    <meta property="og:image:type" content="image/png"/>
+    <meta name="twitter:image:width" content="512"/>
+    <meta name="twitter:image:height" content="512"/>-->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    
+    fbq('init',       '1248563001937607'); // Insert your pixel ID here.
+    fbq('addPixelId', '128200464453427'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1248563001937607&ev=PageView&noscript=1"/>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=128200464453427&ev=PageView&noscript=1"/>
+    </noscript>
+
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+
+    <span id="splash">
+
+    <header>
+        <div class="left"><h1 class="mobile-only brand">MIT</h1></div>
+        <div class="mid"></div>
+        <div class="right"></div>
+        <div class="copyright desktop-only">
+            <a href="https://code.hackmit.org">Open source</a>. Copyright (c) 2017 HackMIT. <br>
+            Released under CC BY-SA.
+        </div>
+    </header>
+
+    <div class="mobile-only mobile-dates">
+        <h3 class="light days">106 DAYS REMAINING</h3>
+        <h3>SEPTEMBER 16-17 2017</h3>
+    </div>
+
+    <div class="desktop-only fire-container" id="stuff">
+        <video autoplay loop src="assets/video/fire.webm" class="fire-video"></video>
+    </div>
+
+    <div class="fixed-view">
+        <div class="top">
+            <div class="desktop-only lead middle aligned content">
+                <h3 class="light days">78 DAYS REMAINING</h3>
+                <h3>JUNE 08-10 2018</h3>
+                <h1 class="brand">DeKUT</h1>
+
+                <p></p>
+
+                <p>They represent the <span class="red">Red Faction</span> and the <span class="blue">Blue Faction</span>. But over 24 hours, they will work together to envision and develop the technology of tomorrow.</p>
+            </div>
+
+            <a class="spinner middle aligned content" href="#!" draggable="false">
+                <div class="spinner-container">
+                    <img id="outer-spinner" src="assets/images/outer-spinner.svg" draggable="false"/>
+                    <object data="assets/images/spinner.svg" type="image/svg+xml" id="spinner"
+                        width="100%" height="100%"></object>
+                </div>
+            </a>
+
+            <div class="controls middle aligned content">
+                <ul>
+                    <li id="register-section">
+                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
+                        <a class="compact-button small round button" href="#register"><i class="plus"></i></a>
+                        <a class="primary-button round button" href="#register"><i class="plus"></i>REGISTER</a>
+
+                        <section class="content">
+                            <h5>Registration is closed.</h5>
+                        </section>
+                    </li>
+                    <li id="faq-section">
+                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
+                        <a class="compact-button small round button" href="#faq"><i class="faq"></i></a>
+                        <a class="primary-button round button" href="#faq"><i class="faq"></i>FAQ</a>
+
+                        <section class="content">
+                            <div>
+                                <h4 class="question">
+                                    Can I attend?
+                                </h4>
+                                <p class="answer">
+                                    IF (you are an MIT undergraduate) OR (you are an MIT M.Eng student) OR ((you are a college undergraduate) AND (you are at least 18 years old)) RETURN "Yes!"
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    How does registration work?
+                                </h4>
+                                <p class="answer">
+                                    Registration is open until July 31st, 11:59 pm EST! Admissions will be based on a weighted random lottery along with selected application reading and will be done in two waves. If you’re accepted, you’ll have a week to confirm your attendance.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    Does this cost money?
+                                </h4>
+                                <p class="answer">
+                                    Nope! Admission is free and includes meals, drinks, snacks, overnight hosting, workshops, swag, and a memorable experience (if we do say so ourselves)!
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What will I eat?
+                                </h4>
+                                <p class="answer">
+                                    We’ll provide food for all meals from Saturday’s breakfast to Sunday’s lunch. If you have dietary restrictions, we’ll try our best to accommodate them. Of course, we’ll also have an abundance of snacks throughout the hacking period.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    Where will I sleep?
+                                </h4>
+                                <p class="answer">
+                                    Hacking all night is fun, but you can also get some rest when you need it! If you indicate in your confirmation form, we can match you with an MIT student who will provide places to sleep and shower. 😴😴😴
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    How do I get there?
+                                </h4>
+                                <p class="answer">
+                                    If you’re travelling more than 30 miles to MIT, we’ll reimburse your travel, as long as you upload your travel receipts upon confirming your attendance. We reimburse up to $200 for travel within the U.S. and from Canada and Mexico and up to $500 for other international travel. We also provide buses free of charge to select East Coast cities. See your registration dashboard for the latest details about reimbursements and busing!
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What should I bring?
+                                </h4>
+                                <p class="answer">
+                                    Bring a valid student ID and government-issued ID for admission and a laptop for hacking. We’ll provide pretty much everything else—air mattresses, toiletries, stickers, snacks, sponsor swag, and more! If you like to be comfy, you can bring a blanket, pillow, and towel.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    How do teams work?
+                                </h4>
+                                <p class="answer">
+                                    Teams are at most 4 people. You can select teammates when you register, or you can register individually without specified teammates. We’ll run the lottery by teams, so rest assured you’ll be able to hack with your friends if that’s what you prefer!
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What if I don’t have a team?
+                                </h4>
+                                <p class="answer">
+                                    If you don’t have a team now, that’s okay! We’ll have team formation and ideation events geared towards helping you find people to work with.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What if I’m an MIT student?
+                                </h4>
+                                <p class="answer">
+                                    If you register by July 30th and confirm by August 12th, you will be guaranteed a spot at HackMIT. Otherwise, you can try for walk-in admission the day of the event.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    On a team with MIT and non-MIT hackers, are the non-MIT hackers automatically admitted?
+                                </h4>
+                                <p class="answer">
+                                    No. The MIT students will be guaranteed a spot at HackMIT, while the rest of the team will be admitted as a unit via our admission process.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What about hardware hacks?
+                                </h4>
+                                <p class="answer">
+                                    We’ll provide some hardware such as Arduinos, Pebbles, Myos—the usual hacker essentials and more. Let us know what you’d like to hack on in our registration form.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    Where’s the schedule?
+                                </h4>
+                                <p class="answer">
+                                    We’ll release a more detailed schedule after July. For now, know that we’re planning for check-in to start Saturday at 8 am and for closing ceremony to end Sunday at 4 pm.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What are factions?
+                                </h4>
+                                <p class="answer">
+                                    We created factions to encourage hackers to have fun and interact with each other outside of normal teams when you’re not working on your projects.  The Red Faction and Blue Faction are hackathon-wide groups  that collectively complete challenges at HackMIT 2017 for points.  The faction with the most points will win and get a surprise upon the conclusion of the hackathon.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    How do I choose a faction?
+                                </h4>
+                                <p class="answer">
+                                    You can choose your faction when you register and confirm your spot!
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    Can team members belong to different factions?
+                                </h4>
+                                <p class="answer">
+                                    Yes, factions do not limit your forming of individual teams.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    Is there an admissions puzzle again?
+                                </h4>
+                                <p class="answer">
+                                    ༼つ ◕_◕ ༽つ  ༼つ ◕_◕ ༽つ  ༼つ ◕_◕ ༽つ
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="question">
+                                    What if this FAQ didn’t answer my questions?
+                                </h4>
+                                <p class="answer">
+                                    Please email us at <a href="/cdn-cgi/l/email-protection#daaebfbbb79ab2bbb9b1b7b3aef4b5a8bd"><span class="__cf_email__" data-cfemail="e79382868aa78f86848c8a8e93c9889580">[email&#160;protected]</span></a> if you’re in any way confused or concerned!  We’d love to help you out :)
+                                </p>
+                            </div>
+                        </section>
+                    </li>
+                    <li id="speakers-section">
+                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
+                        <a class="compact-button small round button" href="#speakers"><i class="speakers"></i></a>
+                        <a class="primary-button round button" href="#speakers"><i class="speakers"></i>SPEAKERS</a>
+
+                        <div class="above-right-wrapper">
+                            <div class="above">
+                                <section class="content">
+                                    Speakers from our sponsors will present on topics ranging from technology to the development of professional skills. A detailed schedule of talks will be sent to hackers.
+                                </section>
+                            </div>
+
+                            <div class="right">
+                                <section class="content">
+                                    <h2>KEYNOTE SPEAKERS</h2>
+
+                                    <div class="speaker">
+                                        <img src="assets/images/speakers/steve.jpg">
+                                        <div class="info">
+                                            <h1>Steve Huffman</h1>
+                                            <h5>Cofounder &amp; CEO of Reddit</h5>
+                                        </div>
+                                    </div>
+                                    <p>Steve Huffman is CEO and co-founder of Reddit. For Steve, the love of programming was instantaneous—and everlasting. A native of Virginia, programming has been the only consistent hobby he’s had. Steve turned his passion into a career as co-founder of Reddit and the co-founder of Hipmunk. In these roles, he’s had the opportunity to do what he loves while also creating companies that have changed the way people use the Internet.</p>
+
+                                    <div class="speaker blue">
+                                        <img src="assets/images/speakers/kyle.jpg">
+                                        <div class="info">
+                                            <h1>Kyle Vogt</h1>
+                                            <h5>Founder &amp; CEO of Cruise</h5>
+                                        </div>
+                                    </div>
+                                    <p>Kyle Vogt is the CEO and founder of Cruise Automation, the driverless car startup that was acquired for roughly $1 billion by GM in 2016. An engineer at heart, Kyle’s interest in self-driving technology can be traced back to his time at MIT. As an undergrad, he worked on the 2005 DARPA Grand Challenge, where he co-led a team to retrofit a truck to drive across the Nevada desert. Kyle’s entrepreneurial track record extends beyond Cruise - he also co-founded Twitch (acquired by Amazon), Socialcam (acquired by Autodesk), and Justin.tv - but his life passion is to deploy self-driving cars at scale in order to make automobile accidents a thing of the past. A native of Kansas City, he currently resides in San Francisco with his wife Tracy and his dog, Charlie.</p>
+
+                                    <h2>FIRESIDE CHAT SPEAKERS</h2>
+
+                                    <div class="speaker">
+                                        <img src="assets/images/speakers/austin.jpg">
+                                        <div class="info">
+                                            <h1>Austin McChord</h1>
+                                            <h5>Founder &amp; CEO of Datto</h5>
+                                        </div>
+                                    </div>
+                                    <p>Austin McChord is the Founder and CEO of Datto, the innovative provider of total data protection solutions serving small to mid-sized businesses via Managed Services Providers. As Datto's chief innovator, Austin’s vision has resulted in thousands of Datto partners protecting mission critical data on behalf of tens of thousands of businesses across the globe. Through Austin’s leadership, Datto has experienced unprecedented growth. Largely self-funded and profitable, Datto has grown to more than 800 plus employees since Austin founded the company in 2007. Austin is a frequently recognized entrepreneur who was named an Ernst & Young Technology Entrepreneur of the Year in 2016 and to the Forbes 30 under 30 in 2015. He has a degree in Bioinformatics from Rochester Institute of Technology, and holds several patents.</p>
+
+                                    <div class="speaker blue">
+                                        <img src="assets/images/speakers/limor.jpg">
+                                        <div class="info">
+                                            <h1>Limor Fried</h1>
+                                            <h5>Founder &amp; CEO of Adafruit</h5>
+                                        </div>
+                                    </div>
+                                    <p>Ladyada is the hacker @ Adafruit, founded in 2005 by MIT hacker &amp; engineer Limor “Ladyada” Fried. Her goal was to create the best place online for learning electronics and making the best designed products for makers of all ages and skill levels. Adafruit has grown to over 100+ employees in the heart of NYC with a 50,000+ sq ft. factory. Adafruit has expanded offerings to include tools, equipment and electronics that Limor personally selects, tests and approves before going in to the Adafruit store. Limor was the first female engineer on the cover of WIRED magazine, and was awarded Entrepreneur magazine’s Entrepreneur of the Year. Ladyada was a founding member of the NYC Industrial Business Advisory Council. Adafruit is ranked #11 in the top 20 USA manufacturing companies and #1 in New York City by Inc. 5000 “fastest growing private companies”. Adafruit is featured in Google’s Economic Impact Report. Limor was named a White House Champion of Change in 2016. In June Limor was on the cover of MAKE Magazine. Adafruit is a 100% woman-owned company.</p>
+
+                                    <div class="speaker">
+                                        <img src="assets/images/speakers/maria.jpg">
+                                        <div class="info">
+                                            <h1>Maria Latushkin</h1>
+                                            <h5>CTO of Narvar</h5>
+                                        </div>
+                                    </div>
+                                    <p>As Chief Technology Officer at Narvar, Maria Latushkin is responsible for leading the company's technology vision and team. Maria joined Narvar with more than 17 years of experience in eCommerce and retail. Most recently Maria evolved and expanded the technology teams at One Kings Lane and Peet’s Coffee and Tea. Prior to that she spent nine years at Walmart.com developing numerous areas in engineering integral to the company's growth and scale in eCommerce.</p>
+
+                                    <div class="speaker blue">
+                                        <img src="assets/images/speakers/poulomi.jpg">
+                                        <div class="info">
+                                            <h1>Poulomi Damany</h1>
+                                            <h5>VP of Data Products at Credit Karma</h5>
+                                        </div>
+                                    </div>
+                                    <p>Poulomi Damany is an immigrant, entrepreneur, and engineer with 15+ years of experience in data-driven consumer products from Yahoo!, Symantec and as a founding team member of 2 startups. In 2016, she joined the U.S. Digital Service (USDS), a startup at the White House formed from the reboot of Healthcare.gov. USDS brings techies into public service to improve our government's most important services, like helping veterans get health benefits or modernizing the immigration system. The experience left her with a resolve to only work on tech &amp; products that genuinely made peoples' live better. She found that mission at Credit Karma, a consumer fin-tech company in San Francisco, that helps 75 million consumers make sense of and progress in their financial lives. She currently serves as Credit Karma's Vice President of Data Products.</p>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="sponsors-section">
+                        <a class="back-button small blue round button" href="#!"><i class="back"></i></a>
+                        <a class="compact-button small round button" href="#sponsors"><i class="sponsors"></i></a>
+                        <a class="primary-button round button" href="#sponsors"><i class="sponsors"></i>SPONSORS</a>
+
+                        <div class="above">
+                            <section class="content">
+                                If you are interested in sponsoring HackMIT 2017, <a href="/cdn-cgi/l/email-protection#cbb8bba4a5b8a4b98ba3aaa8a0a6a2bfe5a4b9ac">email us</a> for more details!
+                            </section>
+                        </div>
+                        <div class="right">
+                            <section class="content">
+                                <a href="https://www.a16z.com" style="background-image: url('/assets/logos/a16z-logo.png')" class="logo platinum"></a>
+                                <a href="https://jobs.disneycareers.com/technology" style="background-image: url('/assets/logos/Disney-logo.svg')" class="logo platinum"></a>
+                                <a href="https://google.com/students" style="background-image: url('/assets/logos/Google-logo.png')" class="logo platinum"></a>
+                                <a href="http://www.baidu.com" style="background-image: url('/assets/logos/Baidu-logo.png')" class="logo platinum"></a>
+                                <a href="http://jumpstart.me" style="background-image: url('/assets/logos/JumpStart-logo.png')" class="logo custom"></a>
+                                <a href="https://www.aqr.com/" style="background-image: url('/assets/logos/AQR-logo.png')" class="logo platinum"></a>
+                                <a href="https://www.ibm.com" style="background-image: url('/assets/logos/IBM-logo.png')" class="logo platinum"></a>
+                                <a href="http://www.amadeus.com/" style="background-image: url('/assets/logos/Amadeus-logo.png')" class="logo platinum"></a>
+                                <a href="https://www.microsoft.com/" style="background-image: url('/assets/logos/Microsoft-logo.png')" class="logo platinum"></a>
+                                <a href="http://www.broadwaytechnology.com/careers/" style="background-image: url('/assets/logos/BroadwayTechnology-logo.png')" class="logo gold"></a>
+                                <a href="https://deshaw.com/" style="background-image: url('/assets/logos/DEShaw-logo.png')" class="logo gold"></a>
+                                <a href="https://www.facebook.com" style="background-image: url('/assets/logos/Facebook-logo.png')" class="logo gold"></a>
+                                <a href="https://www.statestreet.com" style="background-image: url('/assets/logos/StateStreet-logo.png')" class="logo gold"></a>
+                                <a href="https://www.datto.com" style="background-image: url('/assets/logos/Datto-logo.png')" class="logo gold"></a>
+                                <a href="https://www.cib.bnpparibas.com" style="background-image: url('/assets/logos/BNPParibas-logo.png')" class="logo gold"></a>
+                                <a href="https://www.apple.com" style="background-image: url('/assets/logos/Apple-logo.png')" class="logo gold"></a>
+                                <a href="http://www.irobot.com" style="background-image: url('/assets/logos/IRobot-logo.png')" class="logo gold"></a>
+                                <a href="https://www.fin.com/" style="background-image: url('/assets/logos/Fin-logo.png')" class="logo silver"></a>
+                                <a href="http://www.ef.edu/" style="background-image: url('/assets/logos/EFInstituteforCulturalExchangeInc-logo.png')" class="logo silver"></a>
+                                <a href="http://www.hudson-trading.com/" style="background-image: url('/assets/logos/HudsonRiverTrading-logo.png')" class="logo silver"></a>
+                                <a href="http://boozallen.com" style="background-image: url('/assets/logos/BoozAllenHamilton-logo.png')" class="logo silver"></a>
+                                <a href="http://www.goldmansachs.com/what-we-do/engineering/index.html" style="background-image: url('/assets/logos/GoldmanSachs-logo.png')" class="logo silver"></a>
+                                <a href="https://consensys.net/?utm_medium=HackMIT&utm_source=logo&utm_campaign=HackMIT" style="background-image: url('/assets/logos/ConsenSys-logo.png')" class="logo silver"></a>
+                                <a href="https://www.concur.com/" style="background-image: url('/assets/logos/Concur-logo.png')" class="logo silver"></a>
+                                <a href="https://www.kensho.com/" style="background-image: url('/assets/logos/Kensho-logo.png')" class="logo silver"></a>
+                                <a href="http://www.nasdaq.com/" style="background-image: url('/assets/logos/Nasdaq-logo.png')" class="logo silver"></a>
+                                <a href="https://giphy.com/" style="background-image: url('/assets/logos/Giphy-logo.png')" class="logo silver"></a>
+                                <a href="https://www.deepscale.com/" style="background-image: url('/assets/logos/DeepScale-logo.png')" class="logo bronze"></a>
+                                <a href="https://www.janestreet.com/" style="background-image: url('/assets/logos/JaneStreet-logo.svg')" class="logo bronze"></a>
+                                <a href="https://www.appianjobs.com" style="background-image: url('/assets/logos/Appian-logo.png')" class="logo bronze"></a>
+                                <a href="https://www.optum.com" style="background-image: url('/assets/logos/OptumTechnology-logo.png')" class="logo bronze"></a>
+                                <a href="http://www.wolfram.com/" style="background-image: url('/assets/logos/WolframAlpha-logo.png')" class="logo bronze"></a>
+                                <a href="https://www.ge.com/digital/" style="background-image: url('/assets/logos/GE-logo.png')" class="logo bronze"></a>
+                                <a href="https://getfedora.org" style="background-image: url('/assets/logos/Fedora-logo.png')" class="logo bronze"></a>
+                                <a href="http://www.samsara.com" style="background-image: url('/assets/logos/Samsara-logo.png')" class="logo bronze"></a>
+                                <a href="https://www.illumio.com" style="background-image: url('/assets/logos/Illumio-logo.png')" class="logo bronze"></a>
+                                <a href="https://www.weareworldquant.com" style="background-image: url('/assets/logos/WorldQuant-logo.png')" class="logo bronze"></a>
+                                <a href="https://www.akamai.com/" style="background-image: url('/assets/logos/Akamai-logo.png')" class="logo bronze"></a>
+                                <a href="https://getcruise.com/" style="background-image: url('/assets/logos/Cruise-logo.png')" class="logo bronze"></a>
+                                <a href="http://www.talkingrain.com/" style="background-image: url('/assets/logos/TalkingRain-logo.png')" class="logo bronze"></a>
+                                <a href="https://expo.io/" style="background-image: url('/assets/logos/Expo-logo.png')" class="logo bronze"></a>
+                                <a href="https://nvbots.com/" style="background-image: url('/assets/logos/NVBots-logo.png')" class="logo bronze"></a>
+                            </section>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-only scrolling-view">
+        <div class="lead-bottom">
+            <p>It is the year MMXVII. 1000 hackers gather at the Massachusetts Institute of Technology for its annual undergraduate student hackathon.</p>
+
+            <p>They represent <span class="red">Red Faction</span> and <span class="blue">Blue Faction</span>. But over 24 hours, they will work together to envision and develop the technology of tomorrow.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="left"></div>
+        <div class="mid"></div>
+        <div class="right">
+            <ul class="social">
+                <li><a href="/cdn-cgi/l/email-protection#f38796929eb39b9290989e9a87dd9c8194"><i class="mail"></i></a></li>
+                <li><a href="https://twitter.com/hackmit"><i class="twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/HackMIT"><i class="facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/hackmit/"><i class="instagram"></i></a></li>
+                <li><a href="https://medium.com/hackmit-stories"><i class="medium"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    </span>
+
+    <div id="fs-container">
+        <video muted id="fs-video" style="display:none">
+            <source src="assets/videos/splash-intro-compressed.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/zepto-fx.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-63828172-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+    // Facebook pixel
+    $( '#register-button' ).click(function() {
+        fbq('track', 'Lead');
+        fbq('track', 'CompleteRegistration');
+    });
+    </script>
+</body>
+</html>
