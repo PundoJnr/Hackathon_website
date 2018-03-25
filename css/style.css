@@ -37,20 +37,20 @@ img{
     i.sponsors {
       background-image: url("../img/sponsors Icon@2x.png"); }
     i.back {
-      background-image: url("../assets/images/icons/Back Icon@2x.png"); }
+      background-image: url("../img/back Icon@2x.png"); }
     i.medium {
       background-image: url("../assets/images/icons/medium-m-gray-200px.png");
       background-size: 85%;
       background-position-y: 0;
       margin-left: 4px; }
     i.mail {
-      background-image: url("../assets/images/icons/Mail Icon@2x.png"); }
+      background-image: url("../img/mail.png"); }
     i.twitter {
-      background-image: url("../assets/images/icons/Twitter Icon@2x.png"); }
+      background-image: url("../img/twitter.png"); }
     i.facebook {
-      background-image: url("../assets/images/icons/Facebook Icon@2x.png"); }
+      background-image: url("../img/fb.png"); }
     i.instagram {
-      background-image: url("../assets/images/icons/Instagram Icon@2x.png"); }
+      background-image: url("../img/instagram.png"); }
   
   .social {
     margin-left: -4px; }
@@ -205,7 +205,7 @@ img{
       background-image: url(../img/border-bottom-left@2x.png); }
       footer .left:after {
         padding-left: 20px;
-        content: 'HACK TO THE FUTURE';
+        content: 'HACK YOUR WAY OUT';
         font-size: 14px;
         letter-spacing: .05em; }
     footer .right {
@@ -402,12 +402,12 @@ img{
   .brand:before {
     color: #252C37;
     text-shadow: 1px -1px 0 #FF585D, -1px -1px 0 #FF585D, -1px 1px 0 #FF585D, 1px 1px 0 #FF585D;
-    content: 'HACK'; }
+    content: 'DeHUB'; }
   
   .brand:after {
     color: #252C37;
     text-shadow: 1px -1px 0 #D0D6E0, -1px -1px 0 #D0D6E0, -1px 1px 0 #D0D6E0, 1px 1px 0 #D0D6E0;
-    content: ' 2017'; }
+    content: ' 2018'; }
   
   .spinner {
     display: block;
