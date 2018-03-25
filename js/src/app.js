@@ -122,7 +122,7 @@
     /* Update DOM */ 	
 	function updateCountdown(countdownElement, days) {
         var remainingMessage = " DAYS REMAINING";
-        var launchMessage = "HackMIT is here!";
+        var launchMessage = "DeHUB Kenya Hack is Here!";
         
 		if (days == 100) {
             countdownElement.innerHTML = "<a id='innerSpinnerAnchorText' href='http://delorean.codes'>delorean.codes</a>";
