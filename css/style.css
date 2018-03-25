@@ -29,13 +29,13 @@ img{
     position: absolute;
     top: 3px; }
     i.plus {
-      background-image: url("../assets/images/icons/Register Icon@2x.png"); }
+      background-image: url("../img/register Icon@2x.png"); }
     i.faq {
-      background-image: url("../assets/images/icons/FAQ Icon@2x.png"); }
+      background-image: url("../img/FAQ Icon@2x.png"); }
     i.speakers {
-      background-image: url("../assets/images/icons/Speakers Icon@2x.png"); }
+      background-image: url("../img/speakers Icon@2x.png"); }
     i.sponsors {
-      background-image: url("../assets/images/icons/Sponsors Icon@2x.png"); }
+      background-image: url("../img/sponsors Icon@2x.png"); }
     i.back {
       background-image: url("../assets/images/icons/Back Icon@2x.png"); }
     i.medium {
@@ -256,7 +256,8 @@ img{
   
     .fixed-view {
       height: auto !important;
-      display: block !important; }
+     display: block !important;
+     }
       .fixed-view .top {
         display: block; }
         .fixed-view .top .spinner, .fixed-view .top .controls {
