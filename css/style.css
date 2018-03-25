@@ -1,59 +1,11 @@
 img{
     position: absolute;
-    width: 300px; /*the image width*/
-    height: 300px; /*the image height*/
+    width: 300px; 
+    height: 300px; 
     left: 50%;
     top: 50%;
-    margin-left: -185px; /*half the image width*/
-    margin-top: -165px; /*half the image height*/
-}
-.brand {
-    color: #252C37;
-    text-shadow: 1px -1px 0 #74D1EA, -1px -1px 0 #74D1EA, -1px 1px 0 #74D1EA, 1px 1px 0 #74D1EA; 
-
-}
-  
-  .brand:before {
-    color: #252C37;
-    text-shadow: 1px -1px 0 green, -1px -1px 0 green, -1px 1px 0 green, 1px 1px 0 green;
-    content: 'DeHUB KENYA '; }
-  
-  .brand:after {
-    color: #252C37;
-    text-shadow: 1px -1px 0 #D0D6E0, -1px -1px 0 #D0D6E0, -1px 1px 0 #D0D6E0, 1px 1px 0 #D0D6E0;
-    content: ' 2018'; }
-.writing{
-    float: left;
-    margin-top: 220px;
-    margin-left: 100px;
-     
-}
-h3{
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: .128em;
-  font-weight: 400;
-  font-size: 16px;
-}
-body{
-    font-family: 'Karla', sans-serif;
-    color: #D0D6E0;
-    font-size: 13px;
-    letter-spacing: .025em;
-    text-align: right;   
-}
-.mid{
-width: 99%;
-position: absolute;
-height: 32px;
-border-bottom: 0.5px solid #BEE7F0;
-bottom: 24px; 
-}
-.midu{
-    width: 99%;
-    position: absolute;
-    height:32px;
-    border-top: 0.5px solid #BEE7F0;
-    top: 24px;
+    margin-left: -185px; 
+    margin-top: -165px;
 }
 .red {
     color: #FF585D; }
@@ -235,9 +187,9 @@ bottom: 24px;
     header .mid {
       border-top: 0.5px solid #BEE7F0; }
     header .left {
-      background-image: url(../assets/images/border-top-left@2x.png); }
+      background-image: url(../img/border-top-left@2x.png); }
     header .right {
-      background-image: url(../assets/images/border-top-right@2x.png); }
+      background-image: url(../img/border-top-right@2x.png); }
   
   footer {
     bottom: 0; }
@@ -250,14 +202,14 @@ bottom: 24px;
       footer .left:after, footer .right:after {
         bottom: 4px; }
     footer .left {
-      background-image: url(../assets/images/border-bottom-left@2x.png); }
+      background-image: url(../img/border-bottom-left@2x.png); }
       footer .left:after {
         padding-left: 20px;
         content: 'HACK TO THE FUTURE';
         font-size: 14px;
         letter-spacing: .05em; }
     footer .right {
-      background-image: url(../assets/images/border-bottom-right@2x.png); }
+      background-image: url(../img/border-bottom-right@2x.png); }
   
   .social {
     margin: 0;
@@ -324,7 +276,7 @@ bottom: 24px;
         display: none; }
   
     header .left {
-      background-image: url(../assets/images/border-top-left-mobile@2x.png); }
+      background-image: url(../img/border-top-left-mobile@2x.png); }
       header .left .brand {
         position: absolute;
         font-size: 20px;
