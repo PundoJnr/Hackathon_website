@@ -610,7 +610,7 @@ img{
       width: 90px;
       height: 90px; }
   #sponsors-section .logo:hover {
-    -webkit-filter: brightness(1); }
+    webkit-filter: brightness(1); }
   
   #spinner {
     pointer-events: none; }
