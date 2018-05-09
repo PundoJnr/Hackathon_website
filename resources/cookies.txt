@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.facebook.com	TRUE	/	FALSE	1999999999	fr	0rgRecNk5hCCyZAp0..Ba7bwr...1.0.Ba7bwr.
+.hackmit.org	TRUE	/	FALSE	1999999999	__cfduid	dbc6dbafad078249258a201fea4323c8b1525529810
+
