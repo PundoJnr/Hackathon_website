@@ -1,0 +1,57 @@
+<svg id="pickles" xmlns="http://www.w3.org/2000/svg" viewBox="11742.921 2778.078 813.595 806.732">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #515b6b;
+      }
+
+      .cls-1 {
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #515b6b;
+      }
+
+      .cls-3 {
+        fill: #d0d6e0;
+      }
+
+      .cls-4 {
+        stroke-width: 10px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      #timer {
+        stroke: #d0d6e0;
+        stroke-width: 53px; 
+        stroke-dashoffset: 0;
+        stroke-dasharray: 1529.96; 
+        transition: stroke-dashoffset 2s ease;
+      }
+    </style>
+  </defs>
+  <g id="Group_503" data-name="Group 503" transform="translate(11188 2642)">
+    <g id="Ellipse_107" data-name="Ellipse 107" class="cls-1" transform="translate(775 355)">
+      <circle cx="185" cy="185" r="185" />
+      <circle cx="185" cy="185" r="182.5"/>
+    </g>
+    <g id="Group_194" data-name="Group 194" transform="translate(10 10)">
+      <path id="Exclusion_37" data-name="Exclusion 37" class="cls-2" d="M270,540A270,270,0,0,1,79.081,79.081,270,270,0,0,1,460.919,460.919,268.232,268.232,0,0,1,270,540Zm0-486.964C150.365,53.036,53.036,150.365,53.036,270S150.365,486.964,270,486.964,486.964,389.635,486.964,270,389.634,53.036,270,53.036Z" transform="translate(680 260)"/>
+    </g>
+    <g id="Ellipse_112" data-name="Ellipse 112" class="cls-4" transform="translate(670 250)">
+      <circle class="cls-5" cx="290" cy="290" r="290"/>
+      <circle class="cls-6" cx="290" cy="290" r="285"/>
+    </g>
+  <g id="Ellipse_207" data-name="Ellipse 207" class="cls-1" transform="translate(775 725) rotate(-90)">
+      <circle id="timer" cx="185" cy="185" r="243.5" />
+  </g>
+  </g>
+</svg>
